@@ -11,6 +11,7 @@ username = 'username'  # Replace 'your_username' with your SQL Server username
 password = 'password'  # Replace 'your_password' with your SQL Server password
 driver = 'ODBC Driver 17 for SQL Server'  # Replace with your SQL Server driver (e.g., 'ODBC+Driver+17+for+SQL+Server')
 
+
 def test_connection():
     connection_string = f'mssql+pyodbc://{username}:{password}@{server}/{database}?driver={driver}'
     try:
