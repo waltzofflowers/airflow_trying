@@ -579,3 +579,45 @@
 [2024-10-30T23:14:23.908+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:23.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-30T23:14:23.946+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:23.946+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
 [2024-10-30T23:14:23.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.115 seconds
+[2024-10-30T23:14:54.482+0000] {processor.py:186} INFO - Started process (PID=21335) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:14:54.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:14:54.486+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:54.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:14:54.499+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:14:54.519+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:54.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:14:54.542+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:54.542+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:14:54.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.084 seconds
+[2024-10-30T23:15:25.020+0000] {processor.py:186} INFO - Started process (PID=21381) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:25.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:15:25.023+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:25.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:25.039+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:25.081+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:25.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:15:25.126+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:25.125+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:15:25.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.151 seconds
+[2024-10-30T23:15:55.666+0000] {processor.py:186} INFO - Started process (PID=21427) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:55.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:15:55.669+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:55.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:55.687+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:15:55.713+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:55.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:15:55.742+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:55.741+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:15:55.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.106 seconds
+[2024-10-30T23:16:26.251+0000] {processor.py:186} INFO - Started process (PID=21473) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:26.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:16:26.254+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:26.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:26.268+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:26.292+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:26.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:16:26.320+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:26.320+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:16:26.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.096 seconds
+[2024-10-30T23:16:56.905+0000] {processor.py:186} INFO - Started process (PID=21519) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:56.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:16:56.909+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:56.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:56.926+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:16:56.950+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:56.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:16:56.975+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:56.975+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:16:56.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.099 seconds
+[2024-10-30T23:17:27.494+0000] {processor.py:186} INFO - Started process (PID=21565) to work on /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:17:27.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_cron_expression.py for tasks to queue
+[2024-10-30T23:17:27.497+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:27.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:17:27.517+0000] {processor.py:925} INFO - DAG(s) 'dag_with_cron_expression_v4' retrieved from /opt/airflow/dags/dag_with_cron_expression.py
+[2024-10-30T23:17:27.542+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:27.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:17:27.569+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:27.569+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_with_cron_expression_v4 to 2024-10-22 03:00:00+00:00, run_after=2024-10-23 03:00:00+00:00
+[2024-10-30T23:17:27.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_cron_expression.py took 0.113 seconds

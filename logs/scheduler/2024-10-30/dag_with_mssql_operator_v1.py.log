@@ -579,3 +579,45 @@
 [2024-10-30T23:14:21.776+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:21.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-10-30T23:14:21.800+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:21.800+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
 [2024-10-30T23:14:21.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.086 seconds
+[2024-10-30T23:14:52.316+0000] {processor.py:186} INFO - Started process (PID=21325) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:14:52.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:14:52.318+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:52.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:14:52.329+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:14:52.349+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:52.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:14:52.372+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:14:52.372+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:14:52.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.078 seconds
+[2024-10-30T23:15:22.990+0000] {processor.py:186} INFO - Started process (PID=21371) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:22.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:15:22.997+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:22.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:23.015+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:23.039+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:23.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:15:23.067+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:23.066+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:15:23.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.102 seconds
+[2024-10-30T23:15:53.525+0000] {processor.py:186} INFO - Started process (PID=21417) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:53.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:15:53.529+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:53.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:53.543+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:15:53.567+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:53.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:15:53.595+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:15:53.595+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:15:53.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.098 seconds
+[2024-10-30T23:16:24.118+0000] {processor.py:186} INFO - Started process (PID=21463) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:24.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:16:24.121+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:24.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:24.134+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:24.157+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:24.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:16:24.184+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:24.184+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:16:24.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.093 seconds
+[2024-10-30T23:16:54.768+0000] {processor.py:186} INFO - Started process (PID=21509) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:54.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:16:54.772+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:54.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:54.786+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:16:54.809+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:54.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:16:54.834+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:16:54.833+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:16:54.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.091 seconds
+[2024-10-30T23:17:25.453+0000] {processor.py:186} INFO - Started process (PID=21555) to work on /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:17:25.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_with_mssql_operator_v1.py for tasks to queue
+[2024-10-30T23:17:25.456+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:25.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:17:25.467+0000] {processor.py:925} INFO - DAG(s) 'mssql_data_extraction_v1' retrieved from /opt/airflow/dags/dag_with_mssql_operator_v1.py
+[2024-10-30T23:17:25.487+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:25.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-30T23:17:25.512+0000] {logging_mixin.py:190} INFO - [2024-10-30T23:17:25.512+0000] {dag.py:4180} INFO - Setting next_dagrun for mssql_data_extraction_v1 to 2024-10-29 00:00:00+00:00, run_after=2024-10-30 00:00:00+00:00
+[2024-10-30T23:17:25.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_with_mssql_operator_v1.py took 0.146 seconds

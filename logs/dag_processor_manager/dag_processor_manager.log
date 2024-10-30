@@ -19168,3 +19168,95 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.11s           2024-10-30T23:13:51                      12
 /opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:13:55                      12
 ================================================================================
+[2024-10-30T23:14:40.229+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.15s           2024-10-30T23:14:24                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.14s           2024-10-30T23:14:23                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.13s           2024-10-30T23:14:24                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.12s           2024-10-30T23:14:22                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:14:26                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.11s           2024-10-30T23:14:21                      12
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.10s           2024-10-30T23:14:25                      12
+/opt/airflow/dags/connection.py                                                1           0  0.10s           2024-10-30T23:14:30                      12
+================================================================================
+[2024-10-30T23:14:54.412+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-30T23:14:54.451+0000] {manager.py:824} INFO - There are 8 files in /opt/airflow/dags
+[2024-10-30T23:15:10.884+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.11s           2024-10-30T23:14:54                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:14:56                      12
+/opt/airflow/dags/connection.py                                                1           0  0.11s           2024-10-30T23:15:00                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.11s           2024-10-30T23:14:54                      12
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.11s           2024-10-30T23:14:55                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.10s           2024-10-30T23:14:54                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.10s           2024-10-30T23:14:53                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.10s           2024-10-30T23:14:52                      12
+================================================================================
+[2024-10-30T23:15:41.433+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.19s           2024-10-30T23:15:25                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.18s           2024-10-30T23:15:25                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.18s           2024-10-30T23:15:25                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.14s           2024-10-30T23:15:23                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.13s           2024-10-30T23:15:27                      12
+/opt/airflow/dags/connection.py                                                1           0  0.11s           2024-10-30T23:15:31                      12
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.11s           2024-10-30T23:15:26                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.11s           2024-10-30T23:15:24                      12
+================================================================================
+[2024-10-30T23:16:12.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.14s           2024-10-30T23:15:55                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.13s           2024-10-30T23:15:55                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.13s           2024-10-30T23:15:55                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.12s           2024-10-30T23:15:53                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:15:57                      12
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.11s           2024-10-30T23:15:56                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.10s           2024-10-30T23:15:54                      12
+/opt/airflow/dags/connection.py                                                1           0  0.10s           2024-10-30T23:16:02                      12
+================================================================================
+[2024-10-30T23:16:42.674+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.13s           2024-10-30T23:16:27                      12
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.12s           2024-10-30T23:16:26                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.12s           2024-10-30T23:16:26                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.12s           2024-10-30T23:16:24                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:16:28                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.11s           2024-10-30T23:16:25                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.11s           2024-10-30T23:16:26                      12
+/opt/airflow/dags/connection.py                                                1           0  0.10s           2024-10-30T23:16:32                      12
+================================================================================
+[2024-10-30T23:17:13.355+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.15s           2024-10-30T23:16:58                      12
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.14s           2024-10-30T23:16:57                      12
+/opt/airflow/dags/dag_with_catchup_and_backfill.py                             1           0  0.13s           2024-10-30T23:16:57                      12
+/opt/airflow/dags/dag_with_cron_expression.py                                  1           0  0.12s           2024-10-30T23:16:57                      12
+/opt/airflow/dags/connection.py                                                1           0  0.12s           2024-10-30T23:17:03                      12
+/opt/airflow/dags/dag_with_mssql_operator_v1.py                                1           0  0.11s           2024-10-30T23:16:54                      12
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-10-30T23:16:59                      12
+/opt/airflow/dags/dag_with_s3_bucket.py                                        1           0  0.11s           2024-10-30T23:16:55                      12
+================================================================================
