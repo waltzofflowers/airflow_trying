@@ -5,10 +5,10 @@ from sqlalchemy.exc import SQLAlchemyError
 from datetime import datetime
 
 #Establish a connection to the SQL Server database
-server = '192.168.1.102\DEVELOPER'  # Replace 'your_server_name' with your SQL Server instance name
-database = 'Flight_Dataset'  # Replace 'your_database_name' with your database name
-username = 'sa'  # Replace 'your_username' with your SQL Server username
-password = '123321.cihat'  # Replace 'your_password' with your SQL Server password
+server = 'server'  # Replace 'your_server_name' with your SQL Server instance name
+database = 'database'  # Replace 'your_database_name' with your database name
+username = 'username'  # Replace 'your_username' with your SQL Server username
+password = 'password'  # Replace 'your_password' with your SQL Server password
 driver = 'ODBC Driver 17 for SQL Server'  # Replace with your SQL Server driver (e.g., 'ODBC+Driver+17+for+SQL+Server')
 
 def test_connection():
